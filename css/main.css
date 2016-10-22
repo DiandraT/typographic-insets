@@ -68,6 +68,19 @@ p:first-child {
   text-indent: 0;
 }
 
+p:first-child:first-letter {
+  font-family: serif;
+  float: left;
+  line-height: 5rem;
+  font-size: 5rem;
+  color: #fff;
+  background-color: #666;
+  padding: .4em .2em;
+  margin-right: .5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
 main > p:first-child::first-line {
   font-style: italic;
 }
