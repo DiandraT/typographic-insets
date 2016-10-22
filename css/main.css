@@ -68,7 +68,6 @@ p:first-child {
   text-indent: 0;
 }
 
-
 main > p:first-child::first-line {
   font-style: italic;
 }
