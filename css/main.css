@@ -89,7 +89,7 @@ footer {
 /* Write your CSS here */
 
 main > p:first-child::first-letter {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   color: #fff;
   float: left;
   line-height: 5rem;
@@ -105,8 +105,10 @@ main > p:first-child::first-letter {
 figure {
   float: right;
   width: 300px;
+
   padding: 6px;
   margin: 0 0 10px 10px;
+
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
 }
@@ -122,8 +124,10 @@ blockquote {
   color: #666;
 
   float: left;
-  width: 35%;
-  display: block;
+  text-align: right;
+  width: 50%;
+  margin: 1rem;
+  padding: 6px;
 
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
