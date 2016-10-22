@@ -68,18 +68,6 @@ p:first-child {
   text-indent: 0;
 }
 
-p:first-child:first-letter {
-  font-family: serif;
-  float: left;
-  line-height: 5rem;
-  font-size: 5rem;
-  color: #fff;
-  background-color: #666;
-  padding: .4em .2em;
-  margin-right: .5rem;
-  border-top: 3px solid #333;
-  border-bottom: 3px solid #333;
-}
 
 main > p:first-child::first-line {
   font-style: italic;
@@ -100,3 +88,44 @@ footer {
 */
 
 /* Write your CSS here */
+
+main > p:first-child::first-letter {
+  font-family: Georgia;
+  color: #fff;
+  float: left;
+  line-height: 5rem;
+  font-size: 5rem;
+  background-color: #666;
+  padding: .4em .2em;
+  margin-right: .5rem;
+
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+figure {
+  float: right;
+  width: 300px;
+  padding: 6px;
+  margin: 0 0 10px 10px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+  padding: 6px 0;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  color: #666;
+
+  float: left;
+  width: 35%;
+  display: block;
+
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
