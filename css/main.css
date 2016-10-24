@@ -90,7 +90,8 @@ footer {
 
 main > p:first-child::first-letter {
   font-family: Georgia, serif;
-  color: #fff;
+  font-style: normal;
+  color: #f2f2f2;
   float: left;
   line-height: 5rem;
   font-size: 5rem;
@@ -98,19 +99,21 @@ main > p:first-child::first-letter {
   padding: .4em .2em;
   margin-right: .5rem;
 
-  border-top: 3px solid #333;
   border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
 }
 
 figure {
   float: right;
   width: 300px;
 
-  padding: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   margin: 0 0 10px 10px;
+  margin-right: -150px;
 
-  border-top: 3px solid #333;
   border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
 }
 
 figcaption {
@@ -122,11 +125,15 @@ figcaption {
 blockquote {
   font-size: 1.5rem;
   color: #666;
+  line-height: 1.2;
 
   float: left;
   text-align: right;
-  width: 50%;
-  margin: 1rem;
+  width: 300px;
+  margin-left: -150px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   padding: 6px;
 
   border-top: 3px solid #333;
